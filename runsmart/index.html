@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RunSmart — подбор пульсометра</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hero" id="top">
+  <div class="container topbar">
+    <div class="logo">RunSmart<small>Бегай умно — покупай правильно</small></div>
+    <div class="brands">Официальный дилер<br><b>Garmin, Polar, Suunto</b></div>
+    <div class="phone"><a href="tel:+74999220974">+7 (499) 922-09-74</a>
+      <button class="btn btn-sm" data-modal="Обратный звонок">Заказать звонок</button></div>
+  </div>
+  <div class="hero-body">
+    <h1>ПОДБОР ПУЛЬСОМЕТРА</h1>
+    <p>С УЧЁТОМ ВАШЕГО УРОВНЯ ПОДГОТОВКИ</p>
+    <ul class="hero-icons">
+      <li><i>⏱</i>Подбор за<br>10 минут</li>
+      <li><i>🚚</i>Бесплатная<br>доставка</li>
+      <li><i>✔</i>Гарантия<br>на всё</li>
+    </ul>
+    <button class="btn" data-modal="Консультация">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
+    <a class="hero-link" href="#catalog">или перейти в каталог</a>
+  </div>
+</header>
+
+<section class="advantages reveal">
+  <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+  <div class="container adv-grid">
+    <div><span class="adv-ico"><img src="img/icon-trophy.png" alt=""></span><h3>Делимся опытом</h3><p>Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают и тренируются, переехали на марафон на трейл.</p></div>
+    <div><span class="adv-ico"><svg viewBox="0 0 48 48" fill="none" stroke="#c40000" stroke-width="2"><path d="M24 41S6 30 6 17a9 9 0 0 1 18-3 9 9 0 0 1 18 3c0 13-18 24-18 24z"/><path d="M10 24h9l3-6 4 11 3-5h9"/></svg></span><h3>Заботимся о здоровье</h3><p>Мы работаем для того, чтобы Ваши ценные задачи шли по пути к лучшим здоровым целям и радость бега в Вашем busy.</p></div>
+    <div><span class="adv-ico"><svg viewBox="0 0 48 48" fill="none" stroke="#c40000" stroke-width="2"><path d="M4 30c8 0 10-6 12-12l6 4c3 2 8 3 14 5 4 1 8 2 8 6v3H4z"/><path d="M4 36h40M20 26l4 3M26 28l3 3"/></svg></span><h3>Учим бегать</h3><p>Помогаем с обучением: проводим тренировки вместе с друзьями и крупнейшим сообществом в России.</p></div>
+  </div>
+</section>
+
+<section class="consult reveal">
+  <form class="container consult-form" id="consultForm" novalidate>
+    <h2>ПОЛУЧИТЕ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ<br>ПО ПОДБОРУ ПУЛЬСОМЕТРА</h2>
+    <p>Просто заполните форму заявки<br>и мы перезвоним вам в течение 10 минут</p>
+    <input type="text" name="name" placeholder="Ваше имя" required>
+    <input type="tel" name="phone" placeholder="Ваш телефон" required>
+    <input type="email" name="email" placeholder="Ваш E-mail" required>
+    <button class="btn" type="submit">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
+  </form>
+</section>
+
+<section class="showcase reveal">
+  <button class="arrow left" aria-label="Назад" data-dir="-1">‹</button>
+  <div class="slides">
+    <div class="slide active"><img src="img/slider-polar-rc3.png" alt="Polar RC3 GPS"></div>
+    <div class="slide col"><img class="single" src="img/watch-ft1.png" alt="Polar FT1"><div class="slide-name"><b>POLAR</b> FT1</div></div>
+  </div>
+  <div class="dots" id="dots"></div>
+  <button class="arrow right" aria-label="Вперёд" data-dir="1">›</button>
+</section>
+
+<section class="catalog reveal" id="catalog">
+  <h2>КАТАЛОГ ПУЛЬСОМЕТРОВ</h2>
+  <div class="tabs">
+    <button class="tab active" data-filter="fitness">ДЛЯ ФИТНЕСА</button>
+    <button class="tab" data-filter="run">ДЛЯ БЕГА</button>
+    <button class="tab" data-filter="tri">ДЛЯ ТРИАТЛОНА</button>
+  </div>
+  <div class="container grid" id="grid"></div>
+</section>
+
+<section class="reviews reveal">
+  <h2>ОТЗЫВЫ КЛИЕНТОВ</h2>
+  <div class="container">
+    <article class="review"><div class="ava"><img src="img/avatar-irina.png" alt="Ирина"></div><div><h4>Ирина Иванченко</h4><small>ВКонтакте</small><p>Не знала, что себе купить – обратилась к ребятам из RunSmart. Подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности. Через некоторое время решила обновить гаджет – не раздумывая обратилась снова.</p><p>Новый цвет – новый гаджет.<br>Спасибо, RunSmart.</p></div></article>
+    <article class="review"><div class="ava"><img src="img/avatar-ivan.png" alt="Иван"></div><div><h4>Иван Семичаев</h4><small>ВКонтакте</small><p>Крутая шмуся-пульсметр. Обычно без них бегал. Оказывается только хуже себе делал. Купил: пульсометр, ещё в подарок получил тренировку. Со мной вместе провели сверку тренировку, научили пользоваться этими гаджетами, составили план тренировок на месяц вперёд.</p><p>С нами подготовился к заявке первую полумарафону. Спасибо!</p></div></article>
+    <article class="review"><div class="ava"><img src="img/avatar-yulia.png" alt="Юлия"></div><div><h4>Юлия Диалхины</h4><small>ВКонтакте</small><p>Долго не могла начать бегать, то, до этого нескольких раз начинала но останавливать неисла и в бросала. От другой услышала о RunSmart и в бегу с контролем пульса и решила попробовать.</p><p>Позвонила, ребята всего выяснили мои знания целях и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь. Велик! Пробежала уже 7 воскресафари и несколько более задатка забегов и не намерена останавливаться!</p><p>Спасибо!!!</p></div></article>
+  </div>
+</section>
+
+<section class="map-wrap">
+  <iframe title="Карта" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=37.5450%2C55.7540%2C37.5850%2C55.7690&amp;layer=mapnik&amp;marker=55.7615%2C37.5640"></iframe>
+  <div class="contact-card" id="contactCard">
+    <button class="card-close" id="cardClose" aria-label="Закрыть">×</button>
+    <p>Москва, Мнёвники проезд, д.2с1</p>
+    <a class="big-phone" href="tel:+74999220974">8 (499) 922-09-74</a>
+    <div class="socials"><a href="#">f</a><a href="#">in</a><a href="#">P</a></div>
+  </div>
+  <button class="card-open" id="cardOpen" aria-label="Показать контакты">📞 Контакты</button>
+</section>
+
+<button id="toTop" aria-label="Наверх">↑</button>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-box">
+    <button class="close" aria-label="Закрыть">×</button>
+    <form id="orderForm" novalidate>
+      <h3 id="modalTitle">Заявка</h3>
+      <p class="modal-item" id="modalItem"></p>
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="email" name="email" placeholder="Gmail / E-mail" required>
+      <input type="tel" name="phone" placeholder="Номер телефона" required>
+      <textarea name="info" rows="3" placeholder="Что нужно купить / комментарий"></textarea>
+      <button class="btn" type="submit">ОТПРАВИТЬ</button>
+      <p class="msg" id="msg"></p>
+    </form>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
